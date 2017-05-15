@@ -1,0 +1,83 @@
+<shelves>
+  <shelvesCollection class="linked-list">
+    <com.kostkowski.model.Shelf>
+      <shelfId>1</shelfId>
+      <capacity>0</capacity>
+      <maxCapacity>4</maxCapacity>
+      <category>książki</category>
+      <products class="linked-list"/>
+    </com.kostkowski.model.Shelf>
+    <com.kostkowski.model.Shelf>
+      <shelfId>2</shelfId>
+      <capacity>0</capacity>
+      <maxCapacity>5</maxCapacity>
+      <category>napoje</category>
+      <products class="linked-list"/>
+    </com.kostkowski.model.Shelf>
+    <com.kostkowski.model.Shelf>
+      <shelfId>3</shelfId>
+      <capacity>3</capacity>
+      <maxCapacity>6</maxCapacity>
+      <category>kuchenne</category>
+      <products class="linked-list">
+        <com.kostkowski.model.Product>
+          <prodId>31</prodId>
+          <price>4.3</price>
+          <name>kubek</name>
+        </com.kostkowski.model.Product>
+        <com.kostkowski.model.Product>
+          <prodId>32</prodId>
+          <price>2.0</price>
+          <name>łyżka</name>
+        </com.kostkowski.model.Product>
+        <com.kostkowski.model.Product>
+          <prodId>33</prodId>
+          <price>3.2</price>
+          <name>tarka</name>
+        </com.kostkowski.model.Product>
+      </products>
+    </com.kostkowski.model.Shelf>
+    <com.kostkowski.model.Shelf>
+      <shelfId>4</shelfId>
+      <capacity>2</capacity>
+      <maxCapacity>7</maxCapacity>
+      <category>ogrodnicze</category>
+      <products class="linked-list">
+        <com.kostkowski.model.Product>
+          <prodId>41</prodId>
+          <price>230.0</price>
+          <name>grill ogrodowy</name>
+        </com.kostkowski.model.Product>
+        <com.kostkowski.model.Product>
+          <prodId>42</prodId>
+          <price>29.0</price>
+          <name>wąż ogrodowy</name>
+        </com.kostkowski.model.Product>
+      </products>
+    </com.kostkowski.model.Shelf>
+    <com.kostkowski.model.Shelf>
+      <shelfId>5</shelfId>
+      <capacity>0</capacity>
+      <maxCapacity>4</maxCapacity>
+      <category>meble</category>
+      <products class="linked-list"/>
+    </com.kostkowski.model.Shelf>
+  </shelvesCollection>
+  <workersCollection class="linked-list">
+    <com.kostkowski.model.Salesman>
+      <firstName>Jan</firstName>
+      <lastName>Kowalski</lastName>
+      <salesmanId>901</salesmanId>
+    </com.kostkowski.model.Salesman>
+    <com.kostkowski.model.Salesman>
+      <firstName>Anna</firstName>
+      <lastName>Nowak</lastName>
+      <salesmanId>902</salesmanId>
+    </com.kostkowski.model.Salesman>
+    <com.kostkowski.model.Salesman>
+      <firstName>Radosław</firstName>
+      <lastName>Brzoza</lastName>
+      <salesmanId>903</salesmanId>
+    </com.kostkowski.model.Salesman>
+  </workersCollection>
+</shelves>
